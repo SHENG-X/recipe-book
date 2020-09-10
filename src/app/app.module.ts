@@ -9,6 +9,7 @@ import { ShoppingComponent } from './shopping/shopping.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { RecipeListItemComponent } from './recipes/recipe-list/recipe-list-item/recipe-list-item.component';
+import { ShoppingEditComponent } from './shopping/shopping-edit/shopping-edit.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { RecipeListItemComponent } from './recipes/recipe-list/recipe-list-item/
     RecipeListComponent,
     RecipeDetailComponent,
     RecipeListItemComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule,
